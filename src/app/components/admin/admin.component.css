@@ -1,0 +1,14 @@
+.wrapper{
+    
+    display: flex; 
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+}
+label{
+    display: block;
+}
+
+.QuestionWrapper  .ReviewWrapper{
+    overflow: scroll;
+}

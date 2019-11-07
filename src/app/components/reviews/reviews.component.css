@@ -1,0 +1,52 @@
+.wrapper{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.form{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.form-group {
+    margin-bottom: 16px;
+
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 280px;
+}
+
+.form-group textarea {
+    height: 60px;
+}
+.reviewWrapper{
+    min-width: 800px;
+    border: 1px solid black;
+    text-align: center;
+    overflow: scroll;
+    background-color: white;
+    -webkit-transition: all 2.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.oneReview{
+    display: block;
+    background-color: white;
+    border-bottom:1px solid #c4434f;
+}
+.oneReview:hover{
+    transition: all 1s ease-in-out;
+    background-color: #D9d8da;
+
+}
+

@@ -1,0 +1,47 @@
+.mat-toolbar{
+  /* background-color: #abb8be; */
+  background-color: #c4434f;
+  color: white;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+.sidenav-container {
+  height: fit-content;
+
+}
+
+.sidenav {
+  
+  min-width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+ 
+}
+
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+
+}
+
+app-logo{
+
+
+
+}
+
+app-navbar{
+  height: 100%;
+}
+
+ 
+
